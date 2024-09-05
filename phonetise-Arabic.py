@@ -419,8 +419,8 @@ def phonetise(text):
 						pronunciation[stressIndex] += u'\''
 					else:
 						if(pIndex == 0):
-							print 'skipped'
-							print pronunciation
+							print ('skipped')
+							print (pronunciation)
 					pIndex += 1
 				#Append utterance pronunciation to utterancesPronunciations
 				utterancesPronuncationsWithBoundaries[-1] += u" " + u"".join(pronunciations[0])
